@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<!-- ==================================================================
+  PÁGINA DE CURSOS - EEAFR
+  Sistema de abas para navegar entre os 3 cursos técnicos:
+  Administração, Vendas e Desenvolvimento de Sistemas.
+  ================================================================== -->
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cursos técnicos oferecidos pela Escola Estadual Antônio Francisco Redondo. Administração, Vendas e Desenvolvimento de Sistemas.">
+  <meta property="og:title" content="Cursos | EEAFR - Escola Estadual Antônio Francisco Redondo">
+  <meta property="og:description" content="Conheça nossos cursos técnicos profissionalizantes: Administração, Vendas e Desenvolvimento de Sistemas.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="../imagens/LogoEscolarEEAFR01.png">
+  <link rel="shortcut icon" href="../imagens/LogoEscolarEEAFR01.png" type="image/x-icon">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <title>Cursos | EEAFR</title>
+</head>
+<body>
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <div class="top-bar-left">
+        <div class="top-bar-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span data-school="telefone">(11) 3904-5011</span>
+        </div>
+        <div class="top-bar-item">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          <a href="mailto:e000218a@educacao.sp.gov.br">e000218a@educacao.sp.gov.br</a>
+        </div>
+      </div>
+      <div class="top-bar-right">
+        <span class="top-bar-badge-red"><span class="pulse-dot"></span> Matrículas 2026</span>
+        <div class="top-bar-social">
+          <a href="https://www.instagram.com/afredondo/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="https://wa.me/551139045011" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-container">
+      <a href="../index.html">
+        <img src="../imagens/LogoEscolarEEAFR01.png" alt="Logo da Escola EEAFR" id="logoEEAFR">
+      </a>
+      <button class="mobile-menu-toggle" aria-expanded="false" aria-label="Abrir menu de navegação">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="cursos.html" class="ativo">Cursos</a></li>
+          <li><a href="eventos.html">Eventos</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="corpo-docente.html">Equipe</a></li>
+          <li><a href="secretaria-digital.html">Secretaria Digital</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- CABEÇALHO DA PÁGINA -->
+    <section class="page-header">
+      <h1>Nossos Cursos</h1>
+      <p>Cursos técnicos profissionalizantes para o futuro profissional dos nossos alunos</p>
+    </section>
+
+    <!-- SISTEMA DE ABAS -->
+    <section class="page-content">
+      <div class="cursos-tabs container">
+
+        <!-- ABAS DE NAVEGAÇÃO -->
+        <div class="tabs-nav">
+          <button class="tab-btn active" data-tab="adm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            <span>Administração</span>
+          </button>
+          <button class="tab-btn" data-tab="vendas">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></svg>
+            <span>Vendas</span>
+          </button>
+          <button class="tab-btn" data-tab="dev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            <span>Desenvolvimento</span>
+          </button>
+        </div>
+
+        <!-- CONTEÚDO DAS ABAS -->
+        <div class="tabs-content">
+
+          <!-- ===================== ABA: ADMINISTRAÇÃO ===================== -->
+          <div class="tab-panel active" id="tab-adm">
+            <div class="tab-panel-header">
+              <span class="tab-panel-tag">Gestão e Negócios</span>
+              <h2>Curso Técnico em Administração</h2>
+              <p>Forme-se como técnico em Administração e atue em gestão empresarial, finanças, recursos humanos e marketing</p>
+            </div>
+
+            <div class="tab-panel-body">
+              <!-- SOBRE -->
+              <div class="tab-sobre">
+                <div class="tab-sobre-texto">
+                  <h3>Sobre o Curso</h3>
+                  <p>O curso técnico em Administração da EEAFR forma profissionais capacitados para atuar em gestão empresarial, finanças, recursos humanos, marketing e logística. Com uma abordagem prática e teórica, os alunos desenvolvem competências para planejar, organizar e controlar processos administrativos em empresas de diversos portes.</p>
+                  <p>Ao longo do curso, os estudantes participam de projetos reais, estágios em empresas e atividades que simulam o ambiente corporativo, preparando-se para ingressar no mercado de trabalho com segurança e competência.</p>
+                </div>
+                <div class="tab-sobre-info">
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Duração</span>
+                    <span class="tab-info-valor">2 Anos</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Turno</span>
+                    <span class="tab-info-valor">Manhã</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Certificação</span>
+                    <span class="tab-info-valor">MEC Reconhecido</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Vagas</span>
+                    <span class="tab-info-valor">30 por turma</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MÓDULOS -->
+              <div class="tab-modulos">
+                <h3>Matriz Curricular</h3>
+                <div class="modulos-grid">
+                  <div class="modulo-card">
+                    <div class="modulo-numero">01</div>
+                    <h4>Matemática e Estatística</h4>
+                    <p>Ferramentas quantitativas para análise de dados e finanças.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">02</div>
+                    <h4>Teoria Geral da Administração (TGA)</h4>
+                    <p>Estudo das origens e evolução dos modelos de gestão.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">03</div>
+                    <h4>Economia</h4>
+                    <p>Compreensão do mercado, inflação e PIB.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">04</div>
+                    <h4>Contabilidade</h4>
+                    <p>Leitura de balanços, custos e fluxo de caixa.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">05</div>
+                    <h4>Direito Empresarial</h4>
+                    <p> Noções legais sobre contratos, tributos e sociedades.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">06</div>
+                    <h4>Marketing</h4>
+                    <p>Estratégias de mercado, vendas, marcas e comportamento do consumidor.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- HABILIDADES -->
+              <div class="tab-habilidades">
+                <h3>Habilidades Desenvolvidas</h3>
+                <div class="habilidades-list">
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Gerenciamento de projetos</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Análise e tomada de decisão</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Comunicação e liderança</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Manejo de ferramentas administrativas</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Trabalho em equipe multidisciplinar</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Resolução de problemas</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARREIRA -->
+              <div class="tab-carreira">
+                <h3>Opções de Carreira</h3>
+                <div class="carreira-grid">
+                  <div class="carreira-item">
+                    <h4>Assistente Administrativo</h4>
+                    <p>Coordenação de setores, gestão de processos e suporte a direção.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Analista de RH</h4>
+                    <p>Recrutamento, seleção e desenvolvimento de talentos.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Assistente Financeiro</h4>
+                    <p>Controle de contas, orçamentos e relatórios financeiros.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Empreendedor</h4>
+                    <p>Abertura e gestão do próprio negócio com base sólida.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CTA -->
+              <div class="tab-cta">
+                <p>Interessado neste curso?</p>
+                <a href="contato.html" class="btn btn-primary">Entre em Contato</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================== ABA: VENDAS ===================== -->
+          <div class="tab-panel" id="tab-vendas">
+            <div class="tab-panel-header">
+              <span class="tab-panel-tag">Gestão e Negócios</span>
+              <h2>Curso Técnico em Vendas</h2>
+              <p>Torne-se um profissional de vendas completo, dominando negociação, comércio eletrônico e marketing digital</p>
+            </div>
+
+            <div class="tab-panel-body">
+              <!-- SOBRE -->
+              <div class="tab-sobre">
+                <div class="tab-sobre-texto">
+                  <h3>Sobre o Curso</h3>
+                  <p>O curso técnico em Vendas da EEAFR desenvolve habilidades essenciais para o mercado comercial. Os alunos aprendem técnicas de negociação, atendimento ao cliente, gestão de equipes de vendas, e-commerce e estratégias de marketing digital.</p>
+                  <p>Com foco na prática, o curso prepara profissionais para atuar no varejo, atacado, plataformas online e área comercial de empresas de qualquer porte. Os alunos participam de simulações de vendas, feiras comerciais e estágios em empresas do mercado.</p>
+                </div>
+                <div class="tab-sobre-info">
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Duração</span>
+                    <span class="tab-info-valor">2 Anos</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Turno</span>
+                    <span class="tab-info-valor">Manhã</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Certificação</span>
+                    <span class="tab-info-valor">MEC Reconhecido</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Vagas</span>
+                    <span class="tab-info-valor">30 por turma</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MÓDULOS -->
+              <div class="tab-modulos">
+                <h3>Disciplinas e Módulos</h3>
+                <div class="modulos-grid">
+                  <div class="modulo-card">
+                    <div class="modulo-numero">01</div>
+                    <h4>Técnicas de Vendas</h4>
+                    <p>Abordagem, apresentação, argumentação e fechamento de vendas.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">02</div>
+                    <h4>Negociação</h4>
+                    <p>Estratégias de negociação, persuasão e resolução de conflitos.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">03</div>
+                    <h4>E-commerce</h4>
+                    <p>Vendas online, plataformas digitais, logística reversa e atendimento digital.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">04</div>
+                    <h4>Marketing Digital</h4>
+                    <p>Redes sociais, tráfego pago, SEO e estratégias de conversão.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">05</div>
+                    <h4>Gestão de Equipes</h4>
+                    <p>Liderança, motivação, metas e gestão de desempenho comercial.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">06</div>
+                    <h4>Atendimento ao Cliente</h4>
+                    <p>Experiência do cliente, pós-venda, fidelização e SUAT.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- HABILIDADES -->
+              <div class="tab-habilidades">
+                <h3>Habilidades Desenvolvidas</h3>
+                <div class="habilidades-list">
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Comunicação persuasiva</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Liderança e motivação</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Manejo de objeções</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Planejamento comercial</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Uso de CRM e ferramentas digitais</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Experiência do cliente</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARREIRA -->
+              <div class="tab-carreira">
+                <h3>Opções de Carreira</h3>
+                <div class="carreira-grid">
+                  <div class="carreira-item">
+                    <h4>Consultor de Vendas</h4>
+                    <p>Assessoria especializada para clientes e empresas.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Gerente Comercial</h4>
+                    <p>Gestão de equipes e estratégias de vendas.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Especialista E-commerce</h4>
+                    <p>Gestão de lojas virtuais e vendas online.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Representante Comercial</h4>
+                    <p>Representação de marcas e produtos no mercado.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CTA -->
+              <div class="tab-cta">
+                <p>Interessado neste curso?</p>
+                <a href="contato.html" class="btn btn-primary">Entre em Contato</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ===================== ABA: DESENVOLVIMENTO ===================== -->
+          <div class="tab-panel" id="tab-dev">
+            <div class="tab-panel-header">
+              <span class="tab-panel-tag">Informação e Comunicação</span>
+              <h2>Curso Técnico em Desenvolvimento de Sistemas</h2>
+              <p>Aprenda a criar aplicativos web, dispositivos móveis e sistemas completos com as linguagens mais demandadas do mercado</p>
+            </div>
+
+            <div class="tab-panel-body">
+              <!-- SOBRE -->
+              <div class="tab-sobre">
+                <div class="tab-sobre-texto">
+                  <h3>Sobre o Curso</h3>
+                  <p>O curso técnico em Desenvolvimento de Sistemas da EEAFR capacita o aluno para projetar, desenvolver e manter sistemas computacionais. O conteúdo aborda programação web e mobile, banco de dados, engenharia de software, redes e segurança da informação.</p>
+                  <p>Com metodologias ágeis e projetos práticos, os alunos aprendem a trabalhar com as tecnologias mais utilizadas pelo mercado: JavaScript, Python, React, banco de dados SQL e NoSQL, e muito mais. O curso prepara para atuar como desenvolvedor full stack.</p>
+                </div>
+                <div class="tab-sobre-info">
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Duração</span>
+                    <span class="tab-info-valor">2 Anos</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Turno</span>
+                    <span class="tab-info-valor">Manhã</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Certificação</span>
+                    <span class="tab-info-valor">MEC Reconhecido</span>
+                  </div>
+                  <div class="tab-info-item">
+                    <span class="tab-info-label">Vagas</span>
+                    <span class="tab-info-valor">30 por turma</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- MÓDULOS -->
+              <div class="tab-modulos">
+                <h3>Disciplinas e Módulos</h3>
+                <div class="modulos-grid">
+                  <div class="modulo-card">
+                    <div class="modulo-numero">01</div>
+                    <h4>Lógica de Programação</h4>
+                    <p>Algoritmos, estruturas de dados e pensamento computacional.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">02</div>
+                    <h4>Programação Web</h4>
+                    <p>HTML, CSS, JavaScript, React, Node.js e desenvolvimento full stack.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">03</div>
+                    <h4>Banco de Dados</h4>
+                    <p>SQL, NoSQL, modelagem de dados e gerenciamento de informações.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">04</div>
+                    <h4>Engenharia de Software</h4>
+                    <p>Métodos ágeis, Scrum, Kanban e gestão de projetos de software.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">05</div>
+                    <h4>Redes e Segurança</h4>
+                    <p>Infraestrutura de TI, protocolos de rede e segurança da informação.</p>
+                  </div>
+                  <div class="modulo-card">
+                    <div class="modulo-numero">06</div>
+                    <h4>Programação Mobile</h4>
+                    <p>Desenvolvimento de aplicativos para Android e iOS.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- HABILIDADES -->
+              <div class="tab-habilidades">
+                <h3>Habilidades Desenvolvidas</h3>
+                <div class="habilidades-list">
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Programação em múltiplas linguagens</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Resolução de problemas lógicos</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Trabalho em equipe com metodologias ágeis</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Criação de APIs e integrações</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Controle de versão com Git</span>
+                  </div>
+                  <div class="habilidade-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Desenvolvimento de aplicativos completos</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CARREIRA -->
+              <div class="tab-carreira">
+                <h3>Opções de Carreira</h3>
+                <div class="carreira-grid">
+                  <div class="carreira-item">
+                    <h4>Desenvolvedor Full Stack</h4>
+                    <p>Desenvolvimento completo de aplicativos web e mobile.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Desenvolvedor Front-End</h4>
+                    <p>Interface do usuário e experiência do usuário.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Desenvolvedor Back-End</h4>
+                    <p>Servidores, APIs e lógica de negócios.</p>
+                  </div>
+                  <div class="carreira-item">
+                    <h4>Analista de TI</h4>
+                    <p>Gestão de sistemas, suporte técnico e infraestrutura.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- CTA -->
+              <div class="tab-cta">
+                <p>Interessado neste curso?</p>
+                <a href="contato.html" class="btn btn-primary">Entre em Contato</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CTA FINAL -->
+    <section class="cta-banner">
+      <h2>Pronto para começar sua carreira?</h2>
+      <p>Escolha o curso ideal para você e dê o primeiro passo rumo ao seu futuro profissional</p>
+      <a href="contato.html" class="btn-cta">Inscreva-se Agora</a>
+    </section>
+
+  </main>
+
+  <a href="eventos.html" class="btn-page">Fique por Dentro das Novidades</a>
+
+  <img src="../imagens/mascote_redondo_fundo_transparente02.png" alt="Mascote da escola EEAFR" id="mascote">
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <img src="../imagens/LogoEscolarEEAFR01.png" alt="Logo EEAFR" class="logo-footer">
+        <p>A Escola Estadual Antônio Francisco Redondo é uma instituição de ensino público comprometida com a formação integral de cidadãos conscientes, críticos e preparados para os desafios do século XXI.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/afredondo/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="https://wa.me/551139045011" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Links Rápidos</h3>
+        <a href="../index.html">Início</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="corpo-docente.html">Corpo Docente</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contato.html">Contato</a>
+        <a href="secretaria-digital.html">Secretaria Digital</a>
+      </div>
+      <div class="footer-col">
+        <h3>Contato</h3>
+        <p data-school="endereco">R. Evandro Danton F. Gandra, 148</p>
+        <p><span data-school="bairro">Vila Mangalot</span> - <span data-school="cidade">São Paulo</span> - <span data-school="uf">SP</span></p>
+        <p>CEP: <span data-school="cep">05131-100</span></p>
+        <p data-school="telefone">(11) 3904-5011 / (11) 3901-4118</p>
+        <a href="mailto:e000218a@educacao.sp.gov.br">e000218a@educacao.sp.gov.br</a>
+      </div>
+      <div class="footer-col">
+        <h3>Horário de Funcionamento</h3>
+        <p>Segunda a Sexta-feira</p>
+        <p>07:00 às 17:00</p>
+        <p style="margin-top: 15px; color: var(--destaque); font-weight: 500;">Administração:</p>
+        <p>07:30 às 16:30</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Escola Estadual Antônio Francisco Redondo. Todos os direitos reservados.</p>
+      <div class="footer-bottom-links">
+        <a href="https://transparencia.educacao.sp.gov.br/Home/DetalhesEscola?codesc=218" target="_blank" rel="noopener">Portal da Transparência</a>
+        <a href="/pages/privacidade.html">Privacidade</a>
+      </div>
+    </div>
+  <p class="admin-footer-link"><a href="/admin/">Área administrativa</a></p></footer>
+  <script src="../js/script.js"></script>
+  <script src="../js/data.js"></script>
+</body>
+</html>

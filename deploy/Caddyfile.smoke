@@ -1,0 +1,7 @@
+{
+	admin off
+}
+{$APP_DOMAIN} {
+	tls internal
+	reverse_proxy app:3000
+}

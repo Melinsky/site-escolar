@@ -1,0 +1,22 @@
+{
+  "name": "eeafr-site",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "npm --prefix projeto-TCC/backend ci",
+    "start": "npm --prefix projeto-TCC/backend start",
+    "dev": "npm --prefix projeto-TCC/backend run dev",
+    "test": "npm --prefix projeto-TCC/backend test",
+    "check": "npm --prefix projeto-TCC/backend run check",
+    "test:browser": "npm --prefix projeto-TCC/backend run test:browser",
+    "db:setup": "npm --prefix projeto-TCC/backend run db:setup",
+    "db:start": "npm --prefix projeto-TCC/backend run db:start",
+    "db:stop": "npm --prefix projeto-TCC/backend run db:stop",
+    "db:status": "npm --prefix projeto-TCC/backend run db:status",
+    "db:backup": "npm --prefix projeto-TCC/backend run db:backup",
+    "db:migrate": "npm --prefix projeto-TCC/backend run db:migrate",
+    "deploy:configure": "node projeto-TCC/backend/scripts/configure-production.js",
+    "deploy:package": "node projeto-TCC/backend/scripts/package-production.js",
+    "deploy:export": "node projeto-TCC/backend/scripts/export-production.js"
+  }
+}

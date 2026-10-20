@@ -1,0 +1,43 @@
+{
+  "name": "eeafr-backend",
+  "version": "1.0.0",
+  "description": "Backend da EEAFR - API REST com Express e PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "playwright test",
+    "check": "node scripts/check.js",
+    "db:setup": "node scripts/postgres-local.js setup",
+    "db:start": "node scripts/postgres-local.js start",
+    "db:stop": "node scripts/postgres-local.js stop",
+    "db:status": "node scripts/postgres-local.js status",
+    "db:backup": "node scripts/postgres-local.js backup",
+    "db:migrate": "node scripts/migrate-to-postgres.js"
+  },
+  "keywords": [
+    "eeafr",
+    "escola",
+    "api",
+    "postgresql",
+    "express"
+  ],
+  "author": "EEAFR - Projeto TCC",
+  "license": "MIT",
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.10",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "multer": "^2.4.0",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

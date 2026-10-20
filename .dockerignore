@@ -1,0 +1,13 @@
+**/node_modules
+**/.data
+**/.env
+.env.production
+deploy/secrets
+deploy/backups
+deploy/import
+release
+**/test-results
+**/playwright-report
+.git
+**/*.log
+.github

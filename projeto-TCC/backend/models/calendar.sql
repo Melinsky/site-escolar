@@ -1,0 +1,28 @@
+DO $calendar$ BEGIN IF NOT EXISTS (SELECT 1 FROM eventos WHERE tipo='calendario') THEN
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Início das aulas','Calendário do projeto original: 12/01','2026-01-12','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Encerramento do 1o bimestre','Calendário do projeto original: 28/02','2026-02-28','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Férias de carnaval','Calendário do projeto original: 03-07/03','2026-03-03','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Início do 2o bimestre','Calendário do projeto original: 10/03','2026-03-10','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Reunião de Pais e Mestres','Calendário do projeto original: 15/03','2026-03-15','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Feira de Ciências','Calendário do projeto original: 22/04','2026-04-22','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Encerramento do 2o bimestre','Calendário do projeto original: 25/04','2026-04-25','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Feriado - Dia do Trabalho','Calendário do projeto original: 01/05','2026-05-01','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Início do 3o bimestre','Calendário do projeto original: 05/05','2026-05-05','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Dia das Mães','Calendário do projeto original: 10/05','2026-05-10','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Festa Junina','Calendário do projeto original: 05/06','2026-06-05','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Olimpíadas de Matemática','Calendário do projeto original: 20/06','2026-06-20','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Encerramento do 3o bimestre','Calendário do projeto original: 25/06','2026-06-25','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Férias de inverno','Calendário do projeto original: 07-25/07','2026-07-07','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Encerramento do 1o semestre','Calendário do projeto original: 15/07','2026-07-15','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Início do 4o bimestre','Calendário do projeto original: 28/08','2026-08-28','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Feriado - Independência','Calendário do projeto original: 07/09','2026-09-07','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Encerramento do 4o bimestre','Calendário do projeto original: 18/09','2026-09-18','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Feriado - Padroeiro','Calendário do projeto original: 12/10','2026-10-12','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Início do 5o bimestre','Calendário do projeto original: 15/10','2026-10-15','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Feriado - Finados','Calendário do projeto original: 02/11','2026-11-02','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Feriado - Proclamação','Calendário do projeto original: 15/11','2026-11-15','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Dia da Consciência Negra','Calendário do projeto original: 20/11','2026-11-20','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Encerramento do 5o bimestre','Calendário do projeto original: 10/12','2026-12-10','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Entrega de Boletins','Calendário do projeto original: 15/12','2026-12-15','calendario');
+INSERT INTO eventos(titulo,descricao,data_evento,tipo) VALUES ('Início das férias de verão','Calendário do projeto original: 20/12','2026-12-20','calendario');
+END IF; END $calendar$;
